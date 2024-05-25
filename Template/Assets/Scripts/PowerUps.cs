@@ -32,7 +32,7 @@ public class PowerUps : MonoBehaviour
             if (powerUps.Length == 2)
             {
                 int randomIndex = Random.Range(0, objectsToSpawn.Length);
-                Vector3 spawnPosition = new Vector3(Random.Range(-screenWidthWorldUnits / 2, screenWidthWorldUnits / 2), 9, 0);
+                Vector3 spawnPosition = new Vector3(Random.Range(-screenWidthWorldUnits / 2, screenWidthWorldUnits / 2), 11, 0);
                 Instantiate(objectsToSpawn[randomIndex], spawnPosition, Quaternion.identity);
             }
             yield return new WaitForSeconds(spawnInterval);

@@ -12,7 +12,11 @@ public class DisappearOnTouch : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Player"))  // Ensure the colliding object is the player
+        if (collision.gameObject.CompareTag("Bounds"))
+        {
+            Destroy(gameObject);
+        }
+        else if (collision.gameObject.CompareTag("Player"))  // Ensure the colliding object is the player
         {
             // Check if this GameObject's tag is "Shooter"
             if (gameObject.tag == "PowerDown")

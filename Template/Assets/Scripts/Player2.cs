@@ -18,7 +18,7 @@ public class Player2 : MonoBehaviour{
     public Slider energyBar;
     GameObject gm;
 
-    public float fuerzaSalto = 50f;
+    public float fuerzaSalto = 100f;
     public bool tocarPiso = false;
     public Transform pies;
     float tPies = 0.5f;
@@ -48,6 +48,15 @@ public class Player2 : MonoBehaviour{
         if(Energia <= 0){               // Death
             ManzanaAnim.Play("apple_Death");
         }
+        /*
+        if(Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.A)){
+            ManzanaAnim.Play("apple_Walk");
+        }
+        */
+
+        energyBar.value = Energia;
+    }
+    void FixedUpdate(){
         // Handle horizontal movement
         if (Input.GetKey(KeyCode.LeftArrow))
         {
@@ -61,12 +70,14 @@ public class Player2 : MonoBehaviour{
         {
             movX = 0;
         }
-        /*
-        if(Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.A)){
-            ManzanaAnim.Play("apple_Walk");
+        Collider2D collider = Physics2D.OverlapCircle(pies.position, tPies, piso);
+        if(collider != null && collider.CompareTag("Piso")){
+            tocarPiso = true;
         }
-        */
-        tocarPiso = Physics2D.OverlapCircle(pies.position, tPies, piso);
+        else{
+            tocarPiso = false;
+        }
+
         ManzanaAnim.SetBool("Floor", tocarPiso);
 
         if(Input.GetKey(KeyCode.UpArrow) && tocarPiso == true){
@@ -84,7 +95,6 @@ public class Player2 : MonoBehaviour{
         if(!verDerecha && movX < 0){
             Flip();
         }
-        energyBar.value = Energia;
     }
 
     void Flip(){

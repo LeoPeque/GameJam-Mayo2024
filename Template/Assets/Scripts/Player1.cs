@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 
-public class Player : MonoBehaviour{
+public class Player1 : MonoBehaviour{
     public int Energia;
     public float movX;
     bool verDerecha = true;
@@ -16,7 +16,6 @@ public class Player : MonoBehaviour{
     public AudioClip patada;
     public AudioClip srk;
     public Slider energyBar;
-    public Text livesTXT;
     GameObject gm;
 
     public float fuerzaSalto = 50f;
@@ -35,19 +34,32 @@ public class Player : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
-        if(Input.GetKey(KeyCode.P)){
+        if(Input.GetKey(KeyCode.E)){    // Punch
             ManzanaAnim.Play("apple_Punch");
             ManzanaSFX.clip = golpe;
             ManzanaSFX.Play();
         }
-        if(Input.GetKey(KeyCode.U)){
+        if(Input.GetKey(KeyCode.Q)){    // Grab
             ManzanaAnim.Play("apple_Upper");
         }
-        if(Input.GetKey(KeyCode.K)){
+        if(Input.GetKey(KeyCode.F)){    // Throw
             ManzanaAnim.Play("apple_Kick");
         }
-        if(Energia <= 0){
+        if(Energia <= 0){               // Death
             ManzanaAnim.Play("apple_Death");
+        }
+        // Handle horizontal movement
+        if (Input.GetKey(KeyCode.A))
+        {
+            movX = -1;
+        }
+        else if (Input.GetKey(KeyCode.D))
+        {
+            movX = 1;
+        }
+        else
+        {
+            movX = 0;
         }
         /*
         if(Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.A)){
@@ -57,11 +69,11 @@ public class Player : MonoBehaviour{
         tocarPiso = Physics2D.OverlapCircle(pies.position, tPies, piso);
         ManzanaAnim.SetBool("Floor", tocarPiso);
 
-        if(Input.GetKey(KeyCode.UpArrow) && tocarPiso == true){
+        if(Input.GetKey(KeyCode.W) && tocarPiso == true){
             cuerpo.AddForce(new Vector2(0, fuerzaSalto));
         }
 
-        movX = Input.GetAxisRaw("Horizontal");
+        // movX = Input.GetAxisRaw("Horizontal");
         ManzanaAnim.SetFloat("movH",Mathf.Abs(movX)); //el codigo manda al animator un dato
         ManzanaAnim.SetFloat("movV",cuerpo.velocity.y); //el codigo manda al animator un dato
 
@@ -73,7 +85,6 @@ public class Player : MonoBehaviour{
             Flip();
         }
         energyBar.value = Energia;
-        livesTXT.text = "VIDAS: " + gm.GetComponent<GameManager>().vidas.ToString();
     }
 
     void Flip(){

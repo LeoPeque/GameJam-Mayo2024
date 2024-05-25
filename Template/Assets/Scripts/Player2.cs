@@ -78,10 +78,10 @@ public class Player2 : MonoBehaviour{
         ManzanaAnim.SetFloat("movV",cuerpo.velocity.y); //el codigo manda al animator un dato
 
         cuerpo.velocity = new Vector2(movX*5,cuerpo.velocity.y);
-        if(verDerecha && movX < 0){
+        if(verDerecha && movX > 0){
             Flip();
         }
-        if(!verDerecha && movX > 0){
+        if(!verDerecha && movX < 0){
             Flip();
         }
         energyBar.value = Energia;

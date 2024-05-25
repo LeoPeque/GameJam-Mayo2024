@@ -1,0 +1,598 @@
+fileFormatVersion: 2
+guid: fa60db8af66a6294d914c063945d69f3
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6633276560449209368
+    second: apple_fighter_hurt_0
+  - first:
+      213: -7165896374464992642
+    second: apple_fighter_hurt_1
+  - first:
+      213: -7251170731903195723
+    second: apple_fighter_hurt_2
+  - first:
+      213: -4622704224563348455
+    second: apple_fighter_hurt_3
+  - first:
+      213: 336268212052320367
+    second: apple_fighter_hurt_4
+  - first:
+      213: -223497352504833074
+    second: apple_fighter_hurt_5
+  - first:
+      213: 4264059638606558945
+    second: apple_fighter_hurt_6
+  - first:
+      213: -4999770032876300970
+    second: apple_fighter_hurt_7
+  - first:
+      213: 9079925516598853329
+    second: apple_fighter_hurt_8
+  - first:
+      213: 2155955265688488482
+    second: apple_fighter_hurt_9
+  - first:
+      213: 8639931346581993193
+    second: apple_fighter_hurt_10
+  - first:
+      213: 1374629383379540544
+    second: apple_fighter_hurt_11
+  - first:
+      213: -7650480551483779182
+    second: apple_fighter_hurt_12
+  - first:
+      213: -1022659369411173504
+    second: apple_fighter_hurt_13
+  - first:
+      213: 7034764743331278612
+    second: apple_fighter_hurt_14
+  - first:
+      213: -4800730063657000940
+    second: apple_fighter_hurt_15
+  - first:
+      213: 3279349735969329561
+    second: apple_fighter_hurt_16
+  - first:
+      213: -8263544137379295574
+    second: apple_fighter_hurt_17
+  - first:
+      213: -3300782329156400165
+    second: apple_fighter_hurt_18
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 1
+  cookieLightType: 1
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: apple_fighter_hurt_0
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 1834
+        width: 144
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebff75ec1ed1f3a0800000000000000
+      internalID: -6633276560449209368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 1834
+        width: 136
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7a21c6c63f9d8c90800000000000000
+      internalID: -7165896374464992642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_2
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 1866
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b5633f33aaae5b90800000000000000
+      internalID: -7251170731903195723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_3
+      rect:
+        serializedVersion: 2
+        x: 524
+        y: 1865
+        width: 141
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 91c3439fffad8dfb0800000000000000
+      internalID: -4622704224563348455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_4
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1880
+        width: 143
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6062a0482aaaa400800000000000000
+      internalID: 336268212052320367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1657
+        width: 146
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ecb85bf875af5ecf0800000000000000
+      internalID: -223497352504833074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_6
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 1635
+        width: 197
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e6793c36abfc2b30800000000000000
+      internalID: 4264059638606558945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_7
+      rect:
+        serializedVersion: 2
+        x: 424
+        y: 1637
+        width: 197
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 655d3cf15af3d9ab0800000000000000
+      internalID: -4999770032876300970
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_8
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 1618
+        width: 200
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1de31eb5620620e70800000000000000
+      internalID: 9079925516598853329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_9
+      rect:
+        serializedVersion: 2
+        x: 20
+        y: 1402
+        width: 200
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22acef234ed7bed10800000000000000
+      internalID: 2155955265688488482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_10
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1286
+        width: 88
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e638cc88c337e770800000000000000
+      internalID: 8639931346581993193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_11
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 1296
+        width: 192
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 04ad62e142aa31310800000000000000
+      internalID: 1374629383379540544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_12
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1295
+        width: 190
+        height: 292
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29756cfe87804d590800000000000000
+      internalID: -7650480551483779182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_13
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 1297
+        width: 191
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 083a508c8b8cec1f0800000000000000
+      internalID: -1022659369411173504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_14
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 976
+        width: 191
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fe3b4234180a160800000000000000
+      internalID: 7034764743331278612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_15
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 973
+        width: 190
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 410af254171606db0800000000000000
+      internalID: -4800730063657000940
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_16
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 973
+        width: 191
+        height: 291
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99119bac537928d20800000000000000
+      internalID: 3279349735969329561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_17
+      rect:
+        serializedVersion: 2
+        x: 687
+        y: 976
+        width: 192
+        height: 288
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaeceb1a36ef15d80800000000000000
+      internalID: -8263544137379295574
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: apple_fighter_hurt_18
+      rect:
+        serializedVersion: 2
+        x: 22
+        y: 652
+        width: 192
+        height: 290
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdb0fbdb5f34132d0800000000000000
+      internalID: -3300782329156400165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      apple_fighter_hurt_0: -6633276560449209368
+      apple_fighter_hurt_1: -7165896374464992642
+      apple_fighter_hurt_10: 8639931346581993193
+      apple_fighter_hurt_11: 1374629383379540544
+      apple_fighter_hurt_12: -7650480551483779182
+      apple_fighter_hurt_13: -1022659369411173504
+      apple_fighter_hurt_14: 7034764743331278612
+      apple_fighter_hurt_15: -4800730063657000940
+      apple_fighter_hurt_16: 3279349735969329561
+      apple_fighter_hurt_17: -8263544137379295574
+      apple_fighter_hurt_18: -3300782329156400165
+      apple_fighter_hurt_2: -7251170731903195723
+      apple_fighter_hurt_3: -4622704224563348455
+      apple_fighter_hurt_4: 336268212052320367
+      apple_fighter_hurt_5: -223497352504833074
+      apple_fighter_hurt_6: 4264059638606558945
+      apple_fighter_hurt_7: -4999770032876300970
+      apple_fighter_hurt_8: 9079925516598853329
+      apple_fighter_hurt_9: 2155955265688488482
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

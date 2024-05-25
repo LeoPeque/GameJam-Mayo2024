@@ -29,7 +29,7 @@ public class PowerUps : MonoBehaviour
         while (true)
         {
             GameObject[] powerUps = GameObject.FindGameObjectsWithTag("PowerUp");
-            if (powerUps.Length == 2)
+            if (powerUps.Length == 0)
             {
                 int randomIndex = Random.Range(0, objectsToSpawn.Length);
                 Vector3 spawnPosition = new Vector3(Random.Range(-screenWidthWorldUnits / 2, screenWidthWorldUnits / 2), 11, 0);

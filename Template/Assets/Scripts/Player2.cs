@@ -55,7 +55,13 @@ public class Player2 : MonoBehaviour{
             ManzanaSFX.clip = golpe;
             ManzanaSFX.Play();
         }
-        if(Input.GetKey(KeyCode.N)){    // Grab
+        if (Input.GetKey(KeyCode.H))
+        {    // Punch
+            ManzanaAnim.Play("apple_Punch");
+            ManzanaSFX.clip = golpe;
+            ManzanaSFX.Play();
+        }
+        if (Input.GetKey(KeyCode.N)){    // Grab
             ManzanaAnim.Play("apple_Upper");
         }
         if(Input.GetKey(KeyCode.L)){    // Throw

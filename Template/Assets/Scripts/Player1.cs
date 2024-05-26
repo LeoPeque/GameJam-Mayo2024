@@ -59,7 +59,9 @@ public class Player1 : MonoBehaviour{
             ManzanaAnim.Play("apple_Upper");
         }
         if(Input.GetKey(KeyCode.F)){    // Throw
-            ManzanaAnim.Play("apple_Kick");
+            ManzanaAnim.Play("apple_Punch");
+            ManzanaSFX.clip = golpe;
+            ManzanaSFX.Play();
 
         }
         if(Energia <= 0){               // Death

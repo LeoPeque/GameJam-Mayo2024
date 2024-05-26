@@ -88,7 +88,7 @@ public class Player1 : MonoBehaviour{
         ManzanaAnim.SetFloat("movH",Mathf.Abs(movX)); //el codigo manda al animator un dato
         ManzanaAnim.SetFloat("movV",cuerpo.velocity.y); //el codigo manda al animator un dato
 
-        cuerpo.velocity = new Vector2(movX*5,cuerpo.velocity.y);
+        cuerpo.velocity = new Vector2(movX*8,cuerpo.velocity.y);
         if(verDerecha && movX < 0){
             Flip();
         }

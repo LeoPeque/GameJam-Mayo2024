@@ -7,13 +7,28 @@ public class Shooter : MonoBehaviour
     public GameObject aimPrefab; // Assign the Aim prefab in the inspector
     public GameObject capsulePrefab; // Assign the Capsule prefab in the inspector
     public GameObject bulletPrefab; // Assign the Bullet prefab in the inspector
-    public float speed = 3.0f; // Movement speed of the aim instance
-    public float bulletSpeed = 1f; // Bullet speed for better effect
+    public float speed = 3.0f;
+    public float bulletSpeed = 10f; // Bullet speed for better effect
     private GameObject aimInstance;
     private GameObject capsuleInstance;
     private bool isActive = false; // Controls whether updates and shooting are active
+    GameObject agresor;
 
-    private Animator rifleAnim; // Animator for the rifle
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))  // Ensure the colliding object is the player
+        {
+            agresor = collision.gameObject;
+            GetComponent<Renderer>().enabled = false;
+            GetComponent<Collider2D>().enabled = false;
+            if(agresor.GetComponent<Player1>() != null){
+                agresor.GetComponent<Player1>().powered = true;
+            }
+            else{
+                agresor.GetComponent<Player2>().powered = true;
+            }
+        }
+    }
 
     void Update()
     {
@@ -27,7 +42,7 @@ public class Shooter : MonoBehaviour
         }
     }
 
-    public void InitializeInstances()
+    public void Initialize(GameObject victim)
     {
         if (aimPrefab != null)
         {
@@ -37,10 +52,19 @@ public class Shooter : MonoBehaviour
         if (capsulePrefab != null)
         {
             capsuleInstance = Instantiate(capsulePrefab, new Vector3(-13, 5, 0), Quaternion.identity);
-            rifleAnim = capsuleInstance.GetComponent<Animator>(); 
             Destroy(capsuleInstance, 10.0f);
         }
         ActivateShooter(); // Automatically activate when instances are initialized
+    }
+
+    public void ActivateShooter()
+    {
+        isActive = true; // Enable the shooter's functionality
+    }
+
+    public void DeactivateShooter()
+    {
+        isActive = false; // Disable the shooter's functionality
     }
 
     private void UpdatePositions()
@@ -64,40 +88,15 @@ public class Shooter : MonoBehaviour
     {
         if (capsuleInstance != null && bulletPrefab != null)
         {
-            // Get the current position of the capsule
-            Vector3 currentPosition = capsuleInstance.transform.position;
-            
-            // Create a new position for the bullet that is 2 units to the right
-            Vector3 bulletPosition = new Vector3(currentPosition.x, currentPosition.y - 0.3f, currentPosition.z);
-
-            // Instantiate the bullet at this new position
-            GameObject bullet = Instantiate(bulletPrefab, bulletPosition, capsuleInstance.transform.rotation);
+            GameObject bullet = Instantiate(bulletPrefab, capsuleInstance.transform.position, Quaternion.identity);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             if (rb != null)
             {
                 rb.AddForce(capsuleInstance.transform.right * bulletSpeed);
             }
-            
-            // Trigger the animation
-            if (rifleAnim != null)
-            {
-                rifleAnim.SetTrigger("Shooter"); // Set the trigger to play the Rifle_Shoot animation
-            }
         }
     }
-
-    public void ActivateShooter()
-    {
-        isActive = true; // Enable the shooter's functionality
-        // Optionally, you can also trigger an activation animation if needed
-    }
-
-    public void DeactivateShooter()
-    {
-        isActive = false; // Disable the shooter's functionality
-    }
 }
-
 
 
 

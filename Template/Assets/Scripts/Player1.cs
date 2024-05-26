@@ -18,7 +18,7 @@ public class Player1 : MonoBehaviour{
     public Slider energyBar;
     GameObject gm;
 
-    public float fuerzaSalto = 100f;
+    public float fuerzaSalto = 650f;
     public bool tocarPiso = false;
     public Transform pies;
     float tPies = 0.5f;

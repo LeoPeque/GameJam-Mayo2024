@@ -8,10 +8,27 @@ public class Shooter : MonoBehaviour
     public GameObject capsulePrefab; // Assign the Capsule prefab in the inspector
     public GameObject bulletPrefab; // Assign the Bullet prefab in the inspector
     public float speed = 3.0f;
-    public float bulletSpeed = 1f; // Bullet speed for better effect
+    public float bulletSpeed = 10f; // Bullet speed for better effect
     private GameObject aimInstance;
     private GameObject capsuleInstance;
     private bool isActive = false; // Controls whether updates and shooting are active
+    GameObject agresor;
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Player"))  // Ensure the colliding object is the player
+        {
+            agresor = collision.gameObject;
+            GetComponent<Renderer>().enabled = false;
+            GetComponent<Collider2D>().enabled = false;
+            if(agresor.GetComponent<Player1>() != null){
+                agresor.GetComponent<Player1>().powered = true;
+            }
+            else{
+                agresor.GetComponent<Player2>().powered = true;
+            }
+        }
+    }
 
     void Update()
     {
@@ -25,7 +42,7 @@ public class Shooter : MonoBehaviour
         }
     }
 
-    public void InitializeInstances()
+    public void Initialize(GameObject victim)
     {
         if (aimPrefab != null)
         {
@@ -71,7 +88,7 @@ public class Shooter : MonoBehaviour
     {
         if (capsuleInstance != null && bulletPrefab != null)
         {
-            GameObject bullet = Instantiate(bulletPrefab, capsuleInstance.transform.position, Quaternion.identity);
+            GameObject bullet = Instantiate(bulletPrefab, capsuleInstance.transform.position,capsuleInstance.transform.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             if (rb != null)
             {

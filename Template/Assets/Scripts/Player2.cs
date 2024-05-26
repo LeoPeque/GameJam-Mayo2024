@@ -23,7 +23,22 @@ public class Player2 : MonoBehaviour{
     public Transform pies;
     float tPies = 0.5f;
     public LayerMask piso;
+    public bool powered = false;
 
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.CompareTag("Player") && powered == true)  // Ensure the colliding object is the player
+        {
+            if(GameObject.FindWithTag("PowerUp").GetComponent<Masher>() != null){
+                GameObject.FindWithTag("PowerUp").GetComponent<Masher>().Initialize(collision.gameObject);  // Initialize or reinitialize the shooter
+            }
+            else{
+                GameObject.FindWithTag("PowerUp").GetComponent<Shooter>().Initialize(collision.gameObject);
+            }
+            powered = false;
+        }
+    }
+    
     // Start is called before the first frame update
     void Start(){
         ManzanaAnim = GetComponent<Animator>();

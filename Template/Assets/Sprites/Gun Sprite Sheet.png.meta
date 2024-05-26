@@ -1,0 +1,3700 @@
+fileFormatVersion: 2
+guid: 6a898486986e9b74e86228710528f2a5
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3872
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a2dd1b00e248948803293abec090f2
+      internalID: 1742782953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_1
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3872
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1cc9fdc1332a10f4ab1582025009ab5d
+      internalID: 563881513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_2
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3872
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf643890b60a6684d9204ee373ccad4b
+      internalID: -704977998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_3
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3872
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb5abf2fe14a4874a8ac5ba6f8195779
+      internalID: 299504367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_4
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3872
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe1624fc0a593f34f9a2ad51071da44b
+      internalID: 1116111784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3751
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e90ad9b19a8fb74da30823321c78c83
+      internalID: -76911762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_6
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3751
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c234b1720b2e7bc419650bc109f65f0e
+      internalID: -827146951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_7
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3751
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30aaef0b1dd18954d9f6781feefd6d92
+      internalID: -243239831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_8
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3751
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 28cee791052d7d64f87e31c244badbe3
+      internalID: -1019195475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_9
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3751
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45fec7a146d3b954ba3fd3c363ca7edd
+      internalID: -1744482503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3630
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5350a13314d2bd4ba681bfef4129026
+      internalID: -395296735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_11
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3630
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 979987c395ef74a4ab9831515edf8d7a
+      internalID: 1617570331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_12
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3630
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c69df8a7d8258cd4aacfecae3b155831
+      internalID: -588787944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_13
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3630
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf502fdeb06ecc4418f6f05bb5f29d1f
+      internalID: -508595959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_14
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3630
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d51f41a462ca68548aa1f34c5ce05203
+      internalID: 218952250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3509
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9e1f334f042f3f469f1514418757d49
+      internalID: -1579828638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_16
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3509
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6735980fbf88f22428adb99bd558f0a5
+      internalID: -1144965958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_17
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3509
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ad9f22f7efe594e904dbe5a4fa1f3d
+      internalID: -1615029314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_18
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3509
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83667cc9c187fd546856a5617859c270
+      internalID: 775168845
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_19
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3509
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17665b0729bab54f96f60f5a124a70f
+      internalID: 1013370817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3388
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b90d653ae6e697e4abeee986acb301b6
+      internalID: 2046364369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_21
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3388
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b5d19c211f3bc7e4ba1b16d9e30c90a9
+      internalID: 234839079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_22
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3388
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6ddbd58c8ad25b4cb45d746a4e11030
+      internalID: -1194181067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_23
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3388
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e20b9df86436fc429547b6aa3272249
+      internalID: 1670324749
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_24
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3388
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c92159bccb6b8074caf91e26412eb671
+      internalID: 1794348952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3267
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6242360488530b74e8f3d19507fb5b58
+      internalID: -1199960752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_26
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3267
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a9bcfe5f1e34f504b9259f315a48cbbf
+      internalID: 445255865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_27
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3267
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13efdc49b9ba9ba4aa46f04167dff6fa
+      internalID: -265671230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_28
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3267
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59fcda85248c51c489616392ecff129b
+      internalID: -1660191955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_29
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3267
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9768f983547e6d04090dad7494f4da44
+      internalID: 1806691961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3146
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: beb92580be4f2a4459120bab4c3f3c6a
+      internalID: 1247742697
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_31
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3146
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1faa74632a406fd4ebafc7ec9d1ed4ba
+      internalID: 987604112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_32
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3146
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 846dbfc80c0028748a747c19c91cdcfc
+      internalID: 1641481724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_33
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3146
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad8edfbdc78acb547bbdca4cf0e3aa1d
+      internalID: -1876924382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_34
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3146
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1bb8ce1be7a3a74286709745568270b
+      internalID: 1240916462
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3025
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 024a21d62fa17944e9e5a3b41102a3d3
+      internalID: -717434059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_36
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 3025
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6857607a4ca5161419cffec8c4fe30b7
+      internalID: 1558346043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_37
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 3025
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 273448737e054c84fad2371e6856c691
+      internalID: -1191320920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_38
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 3025
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ef9c2529619f3e449dc061f5bd0c5da
+      internalID: -1986563368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_39
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 3025
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 137b54e5593daca48aa325a7e34710e6
+      internalID: -1020729506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2904
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8867441e317ef454b8297e8d9682af89
+      internalID: -1930798771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_41
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2904
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e1f01f5b58e9ae419ff57747c917d5a
+      internalID: -388577442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_42
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2904
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b8b38e89c30bfaf45b751b194b8fcd86
+      internalID: -1522909170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_43
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2904
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dc4498731dc74ef4295fca36da572962
+      internalID: 2013577583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_44
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2904
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbcde2f9d837eb64c9b4e49b36327a83
+      internalID: -655943535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2783
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de7a62f1ebb96be4bbd280a3a7914432
+      internalID: 1301888586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_46
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2783
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36a7cd2c15068814e9fee7bd3cef7c68
+      internalID: 169577091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_47
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2783
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afdab3200adcc1648a9640aa3aba91c2
+      internalID: -1981474567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_48
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2783
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42eb968aaea1010459ed3626c16f6ec7
+      internalID: 857505931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_49
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2783
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12051976b3c38c429750b2a37e72147
+      internalID: -660758168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_50
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2662
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02e03a8f6e6456b47ad8ccd9a8520f5f
+      internalID: -1263737313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_51
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2662
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 883a180b581cf854484a6f8d8789f2a1
+      internalID: -1376484399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_52
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2662
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b5d5ddc8e33e045b6f58b8d6114fdd
+      internalID: 2107591672
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_53
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2662
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c714326b626877c4693cfdfb2a6b5c9c
+      internalID: -115893050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_54
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2662
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f1eea9fe3abe6438acd45d76ea641d
+      internalID: -1705264491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_55
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2541
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dd1331bba945bc4aafaf802cdb7f2d6
+      internalID: 37894029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_56
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2541
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: afe9543730e862c4581e323d6689a663
+      internalID: 273253630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_57
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2541
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 658d9a638e627c54e8388cf7ce1af545
+      internalID: 1522869020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_58
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2541
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32e88dd2605ed6c4896c614d515e2f44
+      internalID: -1637780540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_59
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2541
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 414e19f649d272a4e9ef3b4f3eaef286
+      internalID: -1139805035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2420
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5177f1d98a284984f983d4d622518c63
+      internalID: -757677680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_61
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2420
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31d7e00962d8a1f4f903d8a2ca4ff7c3
+      internalID: 1399614390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_62
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2420
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6ba7e7a06f75a549a22d76e9ac3f080
+      internalID: 28065474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_63
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2420
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9992a1659f0cc24c9f03ed707d60fe2
+      internalID: 891633974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_64
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2420
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2a017187b4f81d48baaf990bace6ee5
+      internalID: -1920808736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_65
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2299
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6cff8a068633a7341abfe4c36c63c141
+      internalID: 730208005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_66
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2299
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ef085fe7e242ad40b8a088b74b9167e
+      internalID: 2139355890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_67
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2299
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56937e668c1e12a4da01f3d2080a89c3
+      internalID: -1975647080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_68
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2299
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 42ab6ff47befa7f48978ed60862101e1
+      internalID: -376060549
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_69
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2299
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d7517fbda652c2c419fc92a02db12e6f
+      internalID: -1994508388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_70
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2178
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c700dc9d7db9cc244bf7c6a0fdf0a32a
+      internalID: -1058270288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_71
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2178
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38df7e185af88a7498059b90107b47fb
+      internalID: 593760886
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_72
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2178
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 936d824316c2db44baea4196ea4bd337
+      internalID: -1100038083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_73
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2178
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 33a0c32a94528f64d926212dfd21d314
+      internalID: -505632064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_74
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2178
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 503d4701d7a60e947a4c64732cbef3b7
+      internalID: 993976941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_75
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2057
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8f756a594802c941b73a35c6cd685d9
+      internalID: 1917958438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_76
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 2057
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5a801ce65e2ac4c8f91686f0e30b8e
+      internalID: -684373262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_77
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 2057
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f62f2c857de59994f8c568eecf994cf3
+      internalID: -1763726445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_78
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 2057
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 652f31398b971194a863030ce7dba742
+      internalID: -1678702934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_79
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 2057
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b74aef9601c2b745a7a0d056a8e4e06
+      internalID: -923066847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_80
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1936
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acb96223b68e4f48ac51f9f4799101d
+      internalID: -1047140823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_81
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1936
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70fef9b0bd7766b459dd9e761517a8ed
+      internalID: 1983617856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_82
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1936
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbf50f7f070e10045927e26ebde953af
+      internalID: -1050719727
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_83
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1936
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37a214b1960e81c4db2844cade13bb7e
+      internalID: -691761230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_84
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1936
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8521a95d705cde249903f46c5e51d293
+      internalID: 728351367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_85
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1815
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 465b1671c742dd4459268e62422d73b0
+      internalID: -1663617123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_86
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1815
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3dcf1550ee3b8347a298b776b54a26b
+      internalID: -1235285844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_87
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1815
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b64a318305ba2a8469e054104883aba9
+      internalID: -1025535131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_88
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1815
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4295345477a6f4741a624445f4ddc6e1
+      internalID: -52152479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_89
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1815
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 453684e6a61378849bc1afb4f318fc91
+      internalID: -1458595684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_90
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1694
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb33f5f76533d734f84e882d551433b2
+      internalID: 1906499430
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_91
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1694
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ed193bf0d4da814aaf673f3db6b76ae
+      internalID: -1226705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_92
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1694
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe26d2781be1bb94488cea21afe1e739
+      internalID: 1826319724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_93
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1694
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01deaea32c660bc48b05c3603a7988c0
+      internalID: 685161097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_94
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1694
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dfd6333014928f4aaba749fe9cc5847
+      internalID: 1964025125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_95
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1573
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87f62676bd81464489630036d80512d8
+      internalID: 145457406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_96
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1573
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08b63ffe01e8acb4fbe7b33e3e13c8f3
+      internalID: -2146229440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_97
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1573
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a29b85423686389449a4e41cf4fa3308
+      internalID: 1224996170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_98
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1573
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ac7d67d499e474dad6840f74366216
+      internalID: 1097700763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_99
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1573
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad1fb941aa852146bc4a823a679e998
+      internalID: -469370808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_100
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1452
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2b66cb70bdf67c478dab2aa59e34a3f
+      internalID: 908753664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_101
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1452
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23b6d5a0b7e46094d80bd062f5fc89d2
+      internalID: -1790393809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_102
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1452
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53ef19430c186364684a9bf566c9a1cb
+      internalID: -928719591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_103
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1452
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef82ad7c8567f5e45b6d8e639f4e9294
+      internalID: 203754638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_104
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1452
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76e649ab05062af4f8ce9063e4780cf7
+      internalID: 1375797038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_105
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1331
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 253f387741235904c83d01dfaa41d5e1
+      internalID: 1215108616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_106
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1331
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f733527aed354b94dbee056a3f596257
+      internalID: 1664913175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_107
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1331
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e386e86d47413c2468d747e0077b0a30
+      internalID: -825966644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_108
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1331
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5781134c759a79f4881d4129334edd3f
+      internalID: 2141615389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_109
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1331
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3da325e0945464085a857cb0e755ae
+      internalID: -1860577908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_110
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1210
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca4f0e1f0cd80e744a1a5dcbc99aa0f0
+      internalID: 422263892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_111
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1210
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4a31984462785148a5a062760a0ee1c
+      internalID: 1932274699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_112
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1210
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1143b237ef2ba9e4683d19fff0961ecb
+      internalID: 1832180418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_113
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1210
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70eeaaafb61afa34baf7dd8a2b1bff63
+      internalID: -511756627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_114
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1210
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 31de886173ef31c4db4dbf3ac66348b6
+      internalID: -1384645323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_115
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1089
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc546fc6a83925c4d9b4586547146c2f
+      internalID: 1684342936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_116
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 1089
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ca83c898ec7a44a499f69121a055c169
+      internalID: -106458179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_117
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 1089
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acdc29fdf2f6a1458e2b9f0645df2f0
+      internalID: -274547316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_118
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1089
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a64ba677ccac4f459fd276d31f6109e
+      internalID: -193057559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_119
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1089
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab6fc27967ea8b94083d361bef536a9b
+      internalID: 696110554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_120
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 968
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41a421ea38eeea84fbbea842d6600d61
+      internalID: 1149555449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_121
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 968
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0688463c4f1fbca46a792a1d414a0955
+      internalID: 1982392878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_122
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 968
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d11c2797526cbeb48be0c4fc38699760
+      internalID: -1649531641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_123
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 968
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 128691ca926d582499d30ee12de64113
+      internalID: 2023536795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_124
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 968
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71900f4fcd70e4448935f67ee342d8ea
+      internalID: -366743223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_125
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 847
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 890effd832c72884d8644954404a92ab
+      internalID: 1851505326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_126
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 847
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cafff878b49dc4a47a38cab1b6465eb1
+      internalID: -31818025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_127
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 847
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ffcf2ead21e9ec9408357aa857d44a83
+      internalID: 899279612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_128
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 847
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90732fc247915a4aa2fc260c54c067a
+      internalID: 919281946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_129
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 847
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 078c7636fe6cd0a42b8c35781e1f95ce
+      internalID: 1682622220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_130
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 726
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68d888293fc3ecf4ba3d3df21568c4df
+      internalID: -595436325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_131
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 726
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 797a0e0c553853d49b078671e54be833
+      internalID: 616813197
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_132
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 726
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c59771ad9f0370d41adbc6603a38b1ba
+      internalID: 222583571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_133
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 726
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1265416d1d30aac48b8287bfc2435d02
+      internalID: 598515656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_134
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 726
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cba9338ba1b75ac44a1280dd846d67f1
+      internalID: -127345990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_135
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 605
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0abcceb82ac987d499b1440a82a9676a
+      internalID: 734675343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_136
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 605
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc94538dc5d05234ba3b2353c7d9283e
+      internalID: 1366145488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_137
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 605
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd7be59d59b892748a6af45c1dc4842b
+      internalID: 2069605048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_138
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 605
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94810029af2462a488118a773afa8c8f
+      internalID: -1186059476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_139
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 605
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03ec0e8de071958429d876c46ed4f90b
+      internalID: -387838846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_140
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 484
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 484c95cf7fe0bdf4abf014850862df67
+      internalID: 481762489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_141
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 484
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce21fa2cd80f6714aba876fce4a9f4ce
+      internalID: -173020395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_142
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 484
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 964a67b3dacacff40a467c34ac694592
+      internalID: 198882194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_143
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 484
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342a1b18b41d32448804872d021be30e
+      internalID: -1861504124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_144
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 484
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 87a15d4353399a44bb00f2558208232f
+      internalID: -983881502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_145
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 363
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce2698c768328e849812245325819bee
+      internalID: 538110381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_146
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 363
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfde9f0ccd8a6b145b276a5f7ccd2b44
+      internalID: -1461027635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_147
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 363
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46297e3fb2974d14498c3b8c0f5b26e5
+      internalID: 1786472587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_148
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 363
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f23ab76a3dc6c0478c1a4e6bcfa4642
+      internalID: 1878284550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_149
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 363
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64353f5cc9022154794addf64e443165
+      internalID: 980331325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_150
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 242
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f204475ce93012840b56cd4d8f926636
+      internalID: 1828911661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_151
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 242
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cc2ef545667a12a419b8e29b4f83c4f1
+      internalID: 1918765683
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_152
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 242
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aaea3594f210747498ec0ca7e107e4db
+      internalID: 434645438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_153
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 242
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e27a54584cbc3384abe020fc6734969b
+      internalID: 875300070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_154
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 242
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cf0843b3156f5240b50c163bb119bb2
+      internalID: -112842784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_155
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 121
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a629cb41155dd0c4b94a20b3f5dff011
+      internalID: 167339587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_156
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 121
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7214ea96daef5764780fbbb9bb98860e
+      internalID: 511865278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_157
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 121
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94a581b3ac7bf804eaba72b1bf9cb04b
+      internalID: -112442558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_158
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 121
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48c8155a54ad3084a8aa1b7388bba722
+      internalID: 591437251
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_159
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 121
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab0954706a73b27479c7f353f6141dc3
+      internalID: -1883778344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_160
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58a922cc1c4aac048827749cdbf8d68b
+      internalID: -1787200555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_161
+      rect:
+        serializedVersion: 2
+        x: 326
+        y: 0
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17c904cba1fb81f40b4104799d8d9d8d
+      internalID: -142559722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Gun Sprite Sheet_162
+      rect:
+        serializedVersion: 2
+        x: 652
+        y: 0
+        width: 326
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9077485737cfccb43b411701099e3e8b
+      internalID: 1730291017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Gun Sprite Sheet_0: 1742782953
+      Gun Sprite Sheet_1: 563881513
+      Gun Sprite Sheet_10: -395296735
+      Gun Sprite Sheet_100: 908753664
+      Gun Sprite Sheet_101: -1790393809
+      Gun Sprite Sheet_102: -928719591
+      Gun Sprite Sheet_103: 203754638
+      Gun Sprite Sheet_104: 1375797038
+      Gun Sprite Sheet_105: 1215108616
+      Gun Sprite Sheet_106: 1664913175
+      Gun Sprite Sheet_107: -825966644
+      Gun Sprite Sheet_108: 2141615389
+      Gun Sprite Sheet_109: -1860577908
+      Gun Sprite Sheet_11: 1617570331
+      Gun Sprite Sheet_110: 422263892
+      Gun Sprite Sheet_111: 1932274699
+      Gun Sprite Sheet_112: 1832180418
+      Gun Sprite Sheet_113: -511756627
+      Gun Sprite Sheet_114: -1384645323
+      Gun Sprite Sheet_115: 1684342936
+      Gun Sprite Sheet_116: -106458179
+      Gun Sprite Sheet_117: -274547316
+      Gun Sprite Sheet_118: -193057559
+      Gun Sprite Sheet_119: 696110554
+      Gun Sprite Sheet_12: -588787944
+      Gun Sprite Sheet_120: 1149555449
+      Gun Sprite Sheet_121: 1982392878
+      Gun Sprite Sheet_122: -1649531641
+      Gun Sprite Sheet_123: 2023536795
+      Gun Sprite Sheet_124: -366743223
+      Gun Sprite Sheet_125: 1851505326
+      Gun Sprite Sheet_126: -31818025
+      Gun Sprite Sheet_127: 899279612
+      Gun Sprite Sheet_128: 919281946
+      Gun Sprite Sheet_129: 1682622220
+      Gun Sprite Sheet_13: -508595959
+      Gun Sprite Sheet_130: -595436325
+      Gun Sprite Sheet_131: 616813197
+      Gun Sprite Sheet_132: 222583571
+      Gun Sprite Sheet_133: 598515656
+      Gun Sprite Sheet_134: -127345990
+      Gun Sprite Sheet_135: 734675343
+      Gun Sprite Sheet_136: 1366145488
+      Gun Sprite Sheet_137: 2069605048
+      Gun Sprite Sheet_138: -1186059476
+      Gun Sprite Sheet_139: -387838846
+      Gun Sprite Sheet_14: 218952250
+      Gun Sprite Sheet_140: 481762489
+      Gun Sprite Sheet_141: -173020395
+      Gun Sprite Sheet_142: 198882194
+      Gun Sprite Sheet_143: -1861504124
+      Gun Sprite Sheet_144: -983881502
+      Gun Sprite Sheet_145: 538110381
+      Gun Sprite Sheet_146: -1461027635
+      Gun Sprite Sheet_147: 1786472587
+      Gun Sprite Sheet_148: 1878284550
+      Gun Sprite Sheet_149: 980331325
+      Gun Sprite Sheet_15: -1579828638
+      Gun Sprite Sheet_150: 1828911661
+      Gun Sprite Sheet_151: 1918765683
+      Gun Sprite Sheet_152: 434645438
+      Gun Sprite Sheet_153: 875300070
+      Gun Sprite Sheet_154: -112842784
+      Gun Sprite Sheet_155: 167339587
+      Gun Sprite Sheet_156: 511865278
+      Gun Sprite Sheet_157: -112442558
+      Gun Sprite Sheet_158: 591437251
+      Gun Sprite Sheet_159: -1883778344
+      Gun Sprite Sheet_16: -1144965958
+      Gun Sprite Sheet_160: -1787200555
+      Gun Sprite Sheet_161: -142559722
+      Gun Sprite Sheet_162: 1730291017
+      Gun Sprite Sheet_17: -1615029314
+      Gun Sprite Sheet_18: 775168845
+      Gun Sprite Sheet_19: 1013370817
+      Gun Sprite Sheet_2: -704977998
+      Gun Sprite Sheet_20: 2046364369
+      Gun Sprite Sheet_21: 234839079
+      Gun Sprite Sheet_22: -1194181067
+      Gun Sprite Sheet_23: 1670324749
+      Gun Sprite Sheet_24: 1794348952
+      Gun Sprite Sheet_25: -1199960752
+      Gun Sprite Sheet_26: 445255865
+      Gun Sprite Sheet_27: -265671230
+      Gun Sprite Sheet_28: -1660191955
+      Gun Sprite Sheet_29: 1806691961
+      Gun Sprite Sheet_3: 299504367
+      Gun Sprite Sheet_30: 1247742697
+      Gun Sprite Sheet_31: 987604112
+      Gun Sprite Sheet_32: 1641481724
+      Gun Sprite Sheet_33: -1876924382
+      Gun Sprite Sheet_34: 1240916462
+      Gun Sprite Sheet_35: -717434059
+      Gun Sprite Sheet_36: 1558346043
+      Gun Sprite Sheet_37: -1191320920
+      Gun Sprite Sheet_38: -1986563368
+      Gun Sprite Sheet_39: -1020729506
+      Gun Sprite Sheet_4: 1116111784
+      Gun Sprite Sheet_40: -1930798771
+      Gun Sprite Sheet_41: -388577442
+      Gun Sprite Sheet_42: -1522909170
+      Gun Sprite Sheet_43: 2013577583
+      Gun Sprite Sheet_44: -655943535
+      Gun Sprite Sheet_45: 1301888586
+      Gun Sprite Sheet_46: 169577091
+      Gun Sprite Sheet_47: -1981474567
+      Gun Sprite Sheet_48: 857505931
+      Gun Sprite Sheet_49: -660758168
+      Gun Sprite Sheet_5: -76911762
+      Gun Sprite Sheet_50: -1263737313
+      Gun Sprite Sheet_51: -1376484399
+      Gun Sprite Sheet_52: 2107591672
+      Gun Sprite Sheet_53: -115893050
+      Gun Sprite Sheet_54: -1705264491
+      Gun Sprite Sheet_55: 37894029
+      Gun Sprite Sheet_56: 273253630
+      Gun Sprite Sheet_57: 1522869020
+      Gun Sprite Sheet_58: -1637780540
+      Gun Sprite Sheet_59: -1139805035
+      Gun Sprite Sheet_6: -827146951
+      Gun Sprite Sheet_60: -757677680
+      Gun Sprite Sheet_61: 1399614390
+      Gun Sprite Sheet_62: 28065474
+      Gun Sprite Sheet_63: 891633974
+      Gun Sprite Sheet_64: -1920808736
+      Gun Sprite Sheet_65: 730208005
+      Gun Sprite Sheet_66: 2139355890
+      Gun Sprite Sheet_67: -1975647080
+      Gun Sprite Sheet_68: -376060549
+      Gun Sprite Sheet_69: -1994508388
+      Gun Sprite Sheet_7: -243239831
+      Gun Sprite Sheet_70: -1058270288
+      Gun Sprite Sheet_71: 593760886
+      Gun Sprite Sheet_72: -1100038083
+      Gun Sprite Sheet_73: -505632064
+      Gun Sprite Sheet_74: 993976941
+      Gun Sprite Sheet_75: 1917958438
+      Gun Sprite Sheet_76: -684373262
+      Gun Sprite Sheet_77: -1763726445
+      Gun Sprite Sheet_78: -1678702934
+      Gun Sprite Sheet_79: -923066847
+      Gun Sprite Sheet_8: -1019195475
+      Gun Sprite Sheet_80: -1047140823
+      Gun Sprite Sheet_81: 1983617856
+      Gun Sprite Sheet_82: -1050719727
+      Gun Sprite Sheet_83: -691761230
+      Gun Sprite Sheet_84: 728351367
+      Gun Sprite Sheet_85: -1663617123
+      Gun Sprite Sheet_86: -1235285844
+      Gun Sprite Sheet_87: -1025535131
+      Gun Sprite Sheet_88: -52152479
+      Gun Sprite Sheet_89: -1458595684
+      Gun Sprite Sheet_9: -1744482503
+      Gun Sprite Sheet_90: 1906499430
+      Gun Sprite Sheet_91: -1226705
+      Gun Sprite Sheet_92: 1826319724
+      Gun Sprite Sheet_93: 685161097
+      Gun Sprite Sheet_94: 1964025125
+      Gun Sprite Sheet_95: 145457406
+      Gun Sprite Sheet_96: -2146229440
+      Gun Sprite Sheet_97: 1224996170
+      Gun Sprite Sheet_98: 1097700763
+      Gun Sprite Sheet_99: -469370808
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

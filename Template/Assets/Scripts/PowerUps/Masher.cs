@@ -35,13 +35,23 @@ public class Masher : MonoBehaviour
     }
 
     public void Initialize(GameObject victim){
+        elapsedTime = 0f;
+        Mashes1 = 0;
+        Mashes2 = 0;
         P1 = agresor.GetComponent<Rigidbody2D>();
         P2 = victim.GetComponent<Rigidbody2D>();
         P1.constraints |= RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
         P2.constraints |= RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY;
         isActive = true;
-        EInstance = Instantiate(EPrefab, new Vector3(P1.transform.position.x, P1.transform.position.y + 2f), Quaternion.identity);
-        LInstance = Instantiate(LPrefab, new Vector3(P2.transform.position.x, P2.transform.position.y + 2f), Quaternion.identity);
+        if(agresor.GetComponent<Player1>() != null){
+                EInstance = Instantiate(EPrefab, new Vector3(P1.transform.position.x, P1.transform.position.y + 2f), Quaternion.identity);
+                LInstance = Instantiate(LPrefab, new Vector3(P2.transform.position.x, P2.transform.position.y + 2f), Quaternion.identity);
+            }
+            else{
+                EInstance = Instantiate(EPrefab, new Vector3(P2.transform.position.x, P2.transform.position.y + 2f), Quaternion.identity);
+                LInstance = Instantiate(LPrefab, new Vector3(P1.transform.position.x, P1.transform.position.y + 2f), Quaternion.identity);
+            }
+
     }
 
     // Update is called once per frame
@@ -64,9 +74,17 @@ public class Masher : MonoBehaviour
     }
 
     void Terminate(){
-        if(Mashes1 > Mashes2){
-            P2.gameObject.GetComponent<Player2>().Energia -= 20;
+        if(agresor.GetComponent<Player1>() != null){
+            if(Mashes1 > Mashes2){
+                P2.gameObject.GetComponent<Player2>().Energia -= 20;
+            }
         }
+        else{
+            if(Mashes2 > Mashes1){
+                P2.gameObject.GetComponent<Player1>().Energia -= 20;
+            }
+        }
+
         P1.constraints &= ~(RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY);
         P2.constraints &= ~(RigidbodyConstraints2D.FreezePositionX | RigidbodyConstraints2D.FreezePositionY);
         isActive = false;

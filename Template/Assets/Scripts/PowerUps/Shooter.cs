@@ -90,8 +90,10 @@ public class Shooter : MonoBehaviour
         if (aimPrefab != null)
         {
             aimInstance = Instantiate(aimPrefab, new Vector3(0, 0, 0), Quaternion.identity);
+
             aimAnim = aimInstance.GetComponent<Animator>();
             Destroy(aimInstance, 10.0f);
+
         }
         if (capsulePrefab != null)
         {
@@ -100,6 +102,7 @@ public class Shooter : MonoBehaviour
             Destroy(capsuleInstance, 10.0f);
         }
         ActivateShooter();
+
     }
 
     public void ActivateShooter()

@@ -8,7 +8,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: apple_Punch
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -7812365355310252334}
@@ -294,7 +294,7 @@ AnimatorStateMachine:
     m_Position: {x: 540, y: 80, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 7910635242116490956}
-    m_Position: {x: 480, y: 180, z: 0}
+    m_Position: {x: 470, y: 180, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 8589945534557316396}
     m_Position: {x: 80, y: -30, z: 0}
@@ -324,7 +324,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Idle_apple
-  m_Speed: 2
+  m_Speed: 1
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -2747959492049254691}

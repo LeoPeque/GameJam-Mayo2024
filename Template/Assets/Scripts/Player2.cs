@@ -16,6 +16,7 @@ public class Player2 : MonoBehaviour{
     public AudioClip patada;
     public AudioClip srk;
     public Slider energyBar;
+    public AudioClip muerte;
     GameObject gm;
 
     public float fuerzaSalto = 100f;
@@ -49,7 +50,7 @@ public class Player2 : MonoBehaviour{
 
     // Update is called once per frame
     void Update(){
-        if(Input.GetKey(KeyCode.M)){    // Punch
+        if(Input.GetKey(KeyCode.U)){    // Punch
             ManzanaAnim.Play("apple_Punch");
             ManzanaSFX.clip = golpe;
             ManzanaSFX.Play();
@@ -61,6 +62,8 @@ public class Player2 : MonoBehaviour{
             ManzanaAnim.Play("apple_Kick");
         }
         if(Energia <= 0){               // Death
+            ManzanaSFX.clip = muerte;
+            ManzanaSFX.Play();
             ManzanaAnim.Play("apple_Death");
         }
         /*
@@ -73,11 +76,11 @@ public class Player2 : MonoBehaviour{
     }
     void FixedUpdate(){
         // Handle horizontal movement
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.J))
         {
             movX = -1;
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.L))
         {
             movX = 1;
         }
@@ -95,7 +98,7 @@ public class Player2 : MonoBehaviour{
 
         ManzanaAnim.SetBool("Floor", tocarPiso);
 
-        if(Input.GetKey(KeyCode.UpArrow) && tocarPiso == true){
+        if(Input.GetKey(KeyCode.I) && tocarPiso == true){
             cuerpo.AddForce(new Vector2(0, fuerzaSalto));
         }
 

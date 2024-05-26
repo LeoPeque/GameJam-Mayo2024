@@ -180,4 +180,4 @@ MonoBehaviour:
   capsulePrefab: {fileID: 3638906431116385641, guid: 7e77b8716c187774798405a212649c43, type: 3}
   bulletPrefab: {fileID: 2314383183370879214, guid: d2c921c48f784104888779a1d31d4b1c, type: 3}
   speed: 3
-  bulletSpeed: 10
+  bulletSpeed: 2000

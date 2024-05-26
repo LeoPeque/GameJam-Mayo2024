@@ -88,7 +88,7 @@ public class Shooter : MonoBehaviour
     {
         if (capsuleInstance != null && bulletPrefab != null)
         {
-            GameObject bullet = Instantiate(bulletPrefab, capsuleInstance.transform.position, Quaternion.identity);
+            GameObject bullet = Instantiate(bulletPrefab, capsuleInstance.transform.position,capsuleInstance.transform.rotation);
             Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
             if (rb != null)
             {

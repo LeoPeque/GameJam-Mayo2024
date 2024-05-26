@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 472325414862035927}
   - component: {fileID: -4908592058846452180}
   m_Layer: 0
-  m_Name: semilla
+  m_Name: bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

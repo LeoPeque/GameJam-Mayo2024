@@ -21,7 +21,7 @@ public class Shooter : MonoBehaviour
     private Animator rifleAnim;
     private Animator aimAnim;
     public string winnerName = "";
-
+    
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
@@ -54,6 +54,8 @@ public class Shooter : MonoBehaviour
             {
                 rifleAnim.SetTrigger("Disappear");
                 aimAnim.SetTrigger("DisappearAim");
+                GameObject platform = GameObject.Find("Release");
+                platform.transform.position = new Vector3(0, 20, 0); 
                 StartCoroutine(DestroyAfterDelay(1.5f)); // Llama a la coroutine con un retraso de 2 segundos
             }
         }
@@ -64,22 +66,24 @@ public class Shooter : MonoBehaviour
         yield return new WaitForSeconds(delay);
         Destroy(capsuleInstance);
         Destroy(aimInstance);
+        GameObject platform = GameObject.Find("Release");
+        platform.transform.position = new Vector3(1, 10, 0); 
     }
 
 
     public void Initialize(GameObject victim)
     {
-
+        Destroy(gameObject, 10.0f);
         if (victim.name == "Player1")
         {
             GameObject Player2 = GameObject.Find("Player2");
-            Player2.transform.position = new Vector3(-30, 18, 0); 
+            Player2.transform.position = new Vector3(2, 14, 0); 
             winnerName = "Player2";
         }
         else if (victim.name == "Player2")
         {
             GameObject Player1 = GameObject.Find("Player1");
-            Player1.transform.position = new Vector3(-30, -18, 0);
+            Player1.transform.position = new Vector3(2, 14, 0);
             winnerName = "Player1";
         }
         

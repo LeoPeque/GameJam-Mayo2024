@@ -25,6 +25,7 @@ public class Player1 : MonoBehaviour{
     public LayerMask piso;
     public bool powered = false;
 
+
     private void OnCollisionEnter2D(Collision2D collision)
     {
         if(collision.gameObject.CompareTag("Player") && powered == true)  // Ensure the colliding object is the player
@@ -45,6 +46,7 @@ public class Player1 : MonoBehaviour{
         Energia = 100;
         cuerpo = GetComponent<Rigidbody2D>();
         gm = GameObject.Find("GameManager");
+
     }
 
     // Update is called once per frame
@@ -53,6 +55,7 @@ public class Player1 : MonoBehaviour{
             ManzanaAnim.Play("apple_Punch");
             ManzanaSFX.clip = golpe;
             ManzanaSFX.Play();
+
         }
         if(Input.GetKey(KeyCode.Q)){    // Grab
             ManzanaAnim.Play("apple_Upper");
@@ -63,6 +66,9 @@ public class Player1 : MonoBehaviour{
         if(Energia <= 0){               // Death
             ManzanaAnim.Play("apple_Death");
         }
+
+
+
         /*
         if(Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.A)){
             ManzanaAnim.Play("apple_Walk");
@@ -124,4 +130,5 @@ public class Player1 : MonoBehaviour{
         SceneManager.LoadScene(1);
         gm.GetComponent<GameManager>().vidas -= 1;
     }
+
 }

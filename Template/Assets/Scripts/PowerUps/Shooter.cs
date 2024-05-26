@@ -47,13 +47,14 @@ public class Shooter : MonoBehaviour
         if (aimPrefab != null)
         {
             aimInstance = Instantiate(aimPrefab, new Vector3(0, 0, 0), Quaternion.identity);
-            Destroy(aimInstance, 10.0f);
+            Destroy(aimInstance, 10f);
         }
         if (capsulePrefab != null)
         {
             capsuleInstance = Instantiate(capsulePrefab, new Vector3(-13, 5, 0), Quaternion.identity);
-            Destroy(capsuleInstance, 10.0f);
+            Destroy(capsuleInstance, 10f);
         }
+        Destroy(gameObject, 10f);
         ActivateShooter(); // Automatically activate when instances are initialized
     }
 

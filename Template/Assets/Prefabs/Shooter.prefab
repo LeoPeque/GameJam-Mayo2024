@@ -77,7 +77,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: c9749e14f27b3144c931eadbcf08356d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: df286ae521941ae49a1aeda46be8d109, type: 3}
   m_Color: {r: 0.23433954, g: 0.49629205, b: 0.78113204, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -176,8 +176,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aae93a10455c5d947ac2bb8e1b45cd24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aimPrefab: {fileID: 3563470568926905884, guid: 8f51a4e4b6a22634d969e72a953b9041, type: 3}
+  aimPrefab: {fileID: 441240452699914502, guid: f6344a6bd228688419a1aa8209b773fc, type: 3}
   capsulePrefab: {fileID: 3638906431116385641, guid: 7e77b8716c187774798405a212649c43, type: 3}
   bulletPrefab: {fileID: 2314383183370879214, guid: d2c921c48f784104888779a1d31d4b1c, type: 3}
-  speed: 3
+  speed: 10
   bulletSpeed: 2000
+  fireRate: 0.5
+  safePosition: {x: 0, y: -22, z: 0}
+  winnerName: 

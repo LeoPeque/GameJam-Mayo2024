@@ -15,6 +15,7 @@ public class Player1 : MonoBehaviour{
     public AudioClip golpe;
     public AudioClip patada;
     public AudioClip srk;
+    public AudioClip muerte;
     public Slider energyBar;
     GameObject gm;
 
@@ -59,9 +60,13 @@ public class Player1 : MonoBehaviour{
         }
         if(Input.GetKey(KeyCode.F)){    // Throw
             ManzanaAnim.Play("apple_Kick");
+
         }
         if(Energia <= 0){               // Death
+            ManzanaSFX.clip = muerte;
+            ManzanaSFX.Play();
             ManzanaAnim.Play("apple_Death");
+
         }
         /*
         if(Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.A)){

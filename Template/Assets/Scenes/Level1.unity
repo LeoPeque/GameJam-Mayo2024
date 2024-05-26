@@ -720,10 +720,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Energia: 0
   movX: 0
-  ManzanaSFX: {fileID: 0}
-  golpe: {fileID: 0}
+  ManzanaSFX: {fileID: 173734404}
+  golpe: {fileID: 8300000, guid: 5170551a3797ce1428c24344e0587147, type: 3}
   patada: {fileID: 0}
   srk: {fileID: 0}
+  muerte: {fileID: 8300000, guid: 390f89c9841e291429181cb44d6859d5, type: 3}
   energyBar: {fileID: 210592242}
   fuerzaSalto: 550
   tocarPiso: 0
@@ -2418,11 +2419,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Energia: 100
   movX: 0
-  ManzanaSFX: {fileID: 0}
-  golpe: {fileID: 0}
+  ManzanaSFX: {fileID: 173734404}
+  golpe: {fileID: 8300000, guid: 5170551a3797ce1428c24344e0587147, type: 3}
   patada: {fileID: 0}
   srk: {fileID: 0}
   energyBar: {fileID: 1702083032}
+  muerte: {fileID: 8300000, guid: 390f89c9841e291429181cb44d6859d5, type: 3}
   fuerzaSalto: 550
   tocarPiso: 0
   pies: {fileID: 1253584436}

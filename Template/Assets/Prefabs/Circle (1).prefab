@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4815684305525902591}
   - component: {fileID: 7103789944162669744}
   - component: {fileID: 8324806236432953809}
+  - component: {fileID: -6945758458111510652}
   m_Layer: 0
   m_Name: Circle (1)
   m_TagString: PowerUp
@@ -137,7 +138,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 0.1
+  m_GravityScale: 0
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -161,3 +162,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eabcadb35ea92fa4886ee621516c1c92, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &-6945758458111510652
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 450860878549006984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 019a8941f254e0142b32f1c2811ecc1f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Fuerza: 30

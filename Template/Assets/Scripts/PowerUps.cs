@@ -6,7 +6,6 @@ public class PowerUps : MonoBehaviour
 {
     public GameObject[] objectsToSpawn;
     public float spawnInterval = 2f;  // Interval between spawns
-
     private float screenWidthWorldUnits;  // Screen width in world units
 
     void Start()
@@ -20,7 +19,6 @@ public class PowerUps : MonoBehaviour
 
         float height = 2f * UnityEngine.Camera.main.orthographicSize;
         screenWidthWorldUnits = height * UnityEngine.Camera.main.aspect;
-
         StartCoroutine(SpawnObjects());
     }
 
@@ -32,7 +30,7 @@ public class PowerUps : MonoBehaviour
             if (powerUps.Length == 0)
             {
                 int randomIndex = Random.Range(0, objectsToSpawn.Length);
-                Vector3 spawnPosition = new Vector3(Random.Range(-screenWidthWorldUnits / 2, screenWidthWorldUnits / 2), 11, 0);
+                Vector3 spawnPosition = new Vector3(Random.Range((-screenWidthWorldUnits / 2) + 10, (screenWidthWorldUnits / 2) -10), 8, 0);
                 Instantiate(objectsToSpawn[randomIndex], spawnPosition, Quaternion.identity);
             }
             yield return new WaitForSeconds(spawnInterval);

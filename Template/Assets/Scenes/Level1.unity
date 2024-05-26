@@ -332,7 +332,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 4
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -512,7 +512,7 @@ MonoBehaviour:
   patada: {fileID: 0}
   srk: {fileID: 0}
   energyBar: {fileID: 210592242}
-  fuerzaSalto: 400
+  fuerzaSalto: 500
   tocarPiso: 0
   pies: {fileID: 53317635}
   piso:
@@ -652,8 +652,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 97, y: -21}
-  m_SizeDelta: {x: 100, y: 20}
+  m_AnchoredPosition: {x: 97, y: -29}
+  m_SizeDelta: {x: 100, y: 70.987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &210592242
 MonoBehaviour:
@@ -716,7 +716,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2035442372233157564, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_Name
-      value: Platform (3)
+      value: Main Stage
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157564, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_TagString
@@ -728,7 +728,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157567, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.3076363
+      value: 3.2539873
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157567, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_LocalScale.y
@@ -736,7 +736,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157567, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.0323
+      value: -1.1312
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157567, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1729,7 +1729,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157564, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_Name
-      value: Platform (1)
+      value: Platform2
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157564, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_TagString
@@ -1749,11 +1749,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157567, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.894
+      value: 4.83
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157567, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.45
+      value: -1.99
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157567, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1875,7 +1875,7 @@ Rigidbody2D:
   m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
-  m_GravityScale: 4
+  m_GravityScale: 5
   m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
@@ -1995,7 +1995,7 @@ MonoBehaviour:
   patada: {fileID: 0}
   srk: {fileID: 0}
   energyBar: {fileID: 1702083032}
-  fuerzaSalto: 400
+  fuerzaSalto: 500
   tocarPiso: 0
   pies: {fileID: 1253584436}
   piso:
@@ -2065,12 +2065,10 @@ RectTransform:
   - {fileID: 757521380}
   m_Father: {fileID: 920904349}
   m_LocalEulerAnglesHint: {x: 0, y: 179.998, z: 0}
-
   m_AnchorMin: {x: 1, y: 1}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -96, y: -21.000092}
-
-  m_SizeDelta: {x: 100, y: 20}
+  m_AnchoredPosition: {x: -105, y: -29}
+  m_SizeDelta: {x: 100, y: 70.987}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1702083032
 MonoBehaviour:
@@ -2422,7 +2420,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157564, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_Name
-      value: Platform
+      value: Platform1
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157564, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_TagString
@@ -2446,7 +2444,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157567, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.19
+      value: -1.93
       objectReference: {fileID: 0}
     - target: {fileID: 2035442372233157567, guid: c8aa78eee077c2a47bb95aa88f443fc4, type: 3}
       propertyPath: m_LocalPosition.z

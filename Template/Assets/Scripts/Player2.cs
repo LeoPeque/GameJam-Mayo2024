@@ -64,9 +64,11 @@ public class Player2 : MonoBehaviour{
         if (Input.GetKey(KeyCode.N)){    // Grab
             ManzanaAnim.Play("apple_Upper");
         }
+        /*
         if(Input.GetKey(KeyCode.L)){    // Throw
             ManzanaAnim.Play("apple_Kick");
         }
+        */
         if(Energia <= 0){               // Death
             ManzanaSFX.clip = muerte;
             ManzanaSFX.Play();
